@@ -1,0 +1,169 @@
+header{
+    padding-top:2%;
+    color: white;
+    margin-bottom:2%;
+}
+#glavni{
+    background-color:rgb(168, 113, 40);
+    margin-left:5%;
+    margin-bottom:2%;
+    margin-right:2%;
+    width:60%;
+    height: 90%;
+    float:left;
+}
+#desno{
+    background:silver;
+    margin-right:2%;
+    width:30%;
+    height:80%;
+    float:right;
+    text-align:center;
+}
+footer{
+    background-color:blueviolet;
+    height: 10%;
+    width:100%;
+    padding-top:2%;
+    text-align:center;
+    margin-top: 5%;
+    margin-right:5%;
+    clear:both;
+}
+
+@keyframes pomeranje{
+    from {backround-color: blue}
+    to {background-color: gold}
+}
+#pomeranje{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 100%;
+    width: 30%;
+    height: 5%;
+
+    text-align:center;
+    background-color: blue;
+    animation-name: pomeranje;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+#baner{
+    width: 100%;
+    height: auto;
+    border:cadetblue dotted;
+    position:relative;
+    max-width: 100%;
+}
+@media screen and (max-width:700px){
+    #baner{ display:none}
+    #pomeranje{display:none}
+    #lista {display:block; float:left}
+    #glavni {float: none}
+    #desno {float: none}
+}
+.prvi{
+    background: rgb(228, 207, 179);
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left:2em;
+    margin-right: 2em;
+    padding: 10px 45px 10px 45px;
+    max-width: 80%;
+}
+.prvi p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:justify
+}
+.prvi p span {
+    float: left;
+    line-height: 85%;  
+    width: .9em; 
+    color: blueviolet; 
+    font-size: 400%;
+    font-family:'Comic Sans MS', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 
+}
+a.izvori{
+    margin-top: 1em;
+    color:white;
+    background: blueviolet;
+    padding:5px;
+    float: right;
+}
+a.izvori:hover {
+    margin-top: 1em;
+    font-size: 1.5em;
+    font-style: italic;
+    background:darkmagenta;
+    float:right;
+}
+.nav-hor{
+    position: relative;
+    margin-top:2%;
+    width: 100%;
+}
+#lista{
+    padding: .3em;
+    display:inline;
+    background-color: grey;
+    width:200px;
+    margin:7px;
+    border:darkgrey solid;
+}
+.nav-hor a{
+    color:darkmagenta;
+    text-decoration: none;
+    font-size: 18px;
+    border: black;
+}
+.nav-hor a:hover{
+    color:white;   
+    border: solid grey;   
+}
+.preporuka{
+    width: 50%;
+    height: 50%;
+    border:blueviolet dashed 2px;
+}
+a:link {color:rgb(32, 16, 104) }
+a:visited {color:chocolate}
+a:hover{color:darkcyan}
+
+.kontakt{
+    background-color:darkorange;
+    border:black solid 2px;
+}
+.kotakt legend{
+    font-family: Comic Sans MS;
+    font-size:18px;
+}
+
+#legenda{
+    width: 60px;
+    color:red;
+    font-size:18px;
+}
+.tekst{
+    font-size:12px;
+    color:green;
+    width:300px;
+}
+#posalji{
+    background-color: green;
+    border: darkgreen solid 2px;
+    width: 150px;
+    font-weight:bolder;
+}
+.g-r {
+    display: flex;
+  }
+  
+  .g-c {
+    flex: 33.33%;
+    padding: 5px;
+  } 
+  .g-c img{
+    width: 80%;
+    height: 30%;
+  }
